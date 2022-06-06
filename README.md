@@ -25,50 +25,61 @@ We implemented:
 
 ### Unfortunately we are unable to show our actual code due to academic integrity. Here are some screenshots and examples for the features that we implemented.
 
-**Spiral Critter** 
-
-Here is an example of a spiral critter program we wrote. A critter with such program would runs in the hexagonal world in a spiral.\
-Our parser parses the program written in the critter language, converts it into an abstract syntax tree, then interprets the instructions based on conditions occurring in the world, as computed by the simulator. 
-
-<!-- <img width="1059" alt="newSpiral" src="https://user-images.githubusercontent.com/58995473/71490416-12a92080-282b-11ea-9e7a-65bb0c230dd5.png"> -->
-
-The Spiral Critter in Action: 
-
-<!-- ![SpiralVideo](https://user-images.githubusercontent.com/58995473/71511468-c5f93000-2892-11ea-8c83-155208a09357.gif) -->
-
-
-**Graphical User Interface**
+### Graphical User Interface
 
 We also implemented a GUI to visualize the simulation. When we originally wrote our simulation logic, we worked with a Command Line Interface. Here, the numbers are critters and the number represent critters and the direction they are pointing in. For example 0 would be pointing up and 3 would be pointing down. # is rock, F is food, and _ is empty spaces. 
-
-<!-- <img width="176" alt="NewCUIImage" src="https://user-images.githubusercontent.com/58995473/71511941-6a2fa680-2894-11ea-9877-7c727b47f639.png"> -->
-
-We then developed a Graphical User Interface using JavaFX. This GUI shows the same scene as above: 
-
-<!-- <img width="1279" alt="GUIVersion" src="https://user-images.githubusercontent.com/58995473/71512451-82a0c080-2896-11ea-99b8-67dfd68bf14f.png"> -->
-
 
 In this Graphical User Interface, users can: 
 - Load custom worlds and critters they wrote using files
 - Get help through a simple tutorial we wrote
 - Run the simulation step by step or continuously using the buttons at the bottom
 - See information about the current state of a critter on the right side panel by licking on the critter
-<!-- - Track a selected critter through a highlight of the tile -->
-- View the number of steps the simulation has run
-<!-- \ and the number of critters that are currently alive  -->
+- Track a selected critter through a highlight of the tile
+- View the number of steps the simulation has run and the number of critters that are currently alive 
 - Distinguish between different critter species based on the critter sprite color
 - Visualize critter sizes based on their relative size on the screen.
 
-Here is our GUI in action: 
+__Run and open Simulator__\
+<img src="images/world.png" width="500" height="400">  
 
-<!-- ![ActionGUI](https://user-images.githubusercontent.com/58995473/71513716-ce099d80-289b-11ea-92cd-d947f9e8077f.gif) -->
+__Tutorial (Help → Tutorial)__\
+<img src="images/tutorial.png" width="500" height="380">  
+
+__Loading a random world (World → Generate Random World)__\
+<img src="images/loaded_world.png" width="500" height="400">  
+
+__Loading a specific world form file (World → Load World From File)__\
+<img src="images/loading_world.png" width="500" height="380">  
+
+__Load a critter at a specific index (Critter → Load Critter At Index)__\
+<img src="images/load_critter.png" width="330" height="280">  
+
+__Sees info of a critter by clicking on the hex__\
+<img src="images/critter_info.png" width="460" height="380">  
+
+__The world simulating by clicking the “Play” button__\
+<img src="images/play_world.png" width="480" height="380">  
+
+__Add object at specific hex by clicking on the hex and selecting the buttons on the right__\
+<img src="images/empty_tile.png" width="500" height="400">  
+
+__Add more food or set empty to a food hex by clicking on hex and selecting button__\
+<img src="images/add_food.png" width="350" height="135">  
+
+__Set empty to a rock hex by clicking on hex and button__\
+<img src="images/set_rock_empty.png" width="350" height="130" >  
 
 
 
-**Dijkstra's Shortest Path Algorithm**
+
+__Spiral Critter__
+
+Here is an example of a spiral critter program we wrote. A critter with such program would runs in the hexagonal world in a spiral.\
+Our parser parses the program written in the critter language, converts it into an abstract syntax tree, then interprets the instructions based on conditions occurring in the world, as computed by the simulator. 
+
+<img src="images/spiral_critter.png" width="590" height="200" >  
+
+
+__Dijkstra's Shortest Path Algorithm__
 
 To enhance critters with intelligence, we implemented an algorithm that enables a critter to find the closest food tile within a predetermined distance in-game, including the number of turns that would be required to eat food directly in front of it. This algorithm is implemented via Dijkstra's Algorithm and a Priority Queue. This enables critters to be more strategic in looking for food.
-
-Dijsktra’s Algorithm in action: 
-
-<!-- ![MazeCritterShortened](https://user-images.githubusercontent.com/58995473/71530069-4302c480-28e8-11ea-8a09-dca4618ea17c.gif) -->
