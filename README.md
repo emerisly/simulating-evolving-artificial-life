@@ -40,34 +40,34 @@ In this Graphical User Interface, users can:
 - Visualize critter sizes based on their relative size on the screen.
 
 __Run and open Simulator__\
-<img src="images/world.png" width="500" height="400">  
+<img src="images/world.png" width="530" height="400">  
 
 __Tutorial (Help → Tutorial)__\
-<img src="images/tutorial.png" width="500" height="380">  
+<img src="images/tutorial.png" width="600" height="480">  
 
 __Loading a random world (World → Generate Random World)__\
-<img src="images/loaded_world.png" width="500" height="400">  
+<img src="images/loaded_world.png" width="600" height="500">  
 
 __Loading a specific world form file (World → Load World From File)__\
-<img src="images/loading_world.png" width="500" height="380">  
+<img src="images/loading_world.png" width="600" height="480">  
 
 __Load a critter at a specific index (Critter → Load Critter At Index)__\
-<img src="images/load_critter.png" width="330" height="280">  
+<img src="images/load_critter.png" width="530" height="460">  
 
 __Sees info of a critter by clicking on the hex__\
-<img src="images/critter_info.png" width="460" height="380">  
+<img src="images/critter_info.png" width="600" height="500">  
 
 __The world simulating by clicking the “Play” button__\
-<img src="images/play_world.png" width="480" height="380">  
+<img src="images/play_world.png" width="600" height="480">  
 
 __Add object at specific hex by clicking on the hex and selecting the buttons on the right__\
-<img src="images/empty_tile.png" width="500" height="400">  
+<img src="images/empty_tile.png" width="600" height="500">  
 
 __Add more food or set empty to a food hex by clicking on hex and selecting button__\
-<img src="images/add_food.png" width="350" height="135">  
+<img src="images/add_food.png" width="500" height="200">  
 
 __Set empty to a rock hex by clicking on hex and button__\
-<img src="images/set_rock_empty.png" width="350" height="130" >  
+<img src="images/set_rock_empty.png" width="500" height="180" >  
 
 
 
@@ -77,7 +77,7 @@ __Spiral Critter__
 Here is an example of a spiral critter program we wrote. A critter with such program would runs in the hexagonal world in a spiral.\
 Our parser parses the program written in the critter language, converts it into an abstract syntax tree, then interprets the instructions based on conditions occurring in the world, as computed by the simulator. 
 
-<img src="images/spiral_critter.png" width="590" height="200" >  
+<img src="images/spiral_critter.png" width="600" height="210" >  
 
 
 __Dijkstra's Shortest Path Algorithm__
