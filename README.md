@@ -86,4 +86,4 @@ To enhance critters with intelligence, we implemented an algorithm that enables 
 
 <img src="images/smell and eat.gif" width="640" height="343" > 
 
-<img src="images/spiral.gif" width="623" height="640" > 
+<img src="images/spiral.gif" width="311" height="320" > 
