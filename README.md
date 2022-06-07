@@ -85,5 +85,6 @@ Our parser parses the program written in the critter language, converts it into 
 
 <img src="images/spiral_critter.png" width="600" height="290" >  
 <img src="images/spiral.gif" width="311" height="320" > 
-
-
+ 
+ Program rules below\
+ <img src="images/language.png" width="450" height="320" > 
