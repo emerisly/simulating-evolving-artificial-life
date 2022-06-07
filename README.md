@@ -58,7 +58,7 @@ __Sees info of a critter by clicking on the hex__\
 <img src="images/critter_info.png" width="600" height="480">  
 
 __The world simulating by clicking the “Play” button__\
-<img src="images/play_world.png" width="600" height="470">  
+<img src="images/play_world.png" width="600" height="490">  
 
 __Add object at specific hex by clicking on the hex and selecting the buttons on the right__\
 <img src="images/empty_tile.png" width="600" height="490">  
@@ -75,7 +75,7 @@ __Dijkstra's Shortest Path Algorithm__
 
 To enhance critters with intelligence, we implemented an algorithm that enables a critter to find the closest food tile within a predetermined distance in-game, including the number of turns that would be required to eat food directly in front of it. This algorithm is implemented via Dijkstra's Algorithm and a Priority Queue. This enables critters to be more strategic in looking for food.
 
-<img src="images/smell and eat.gif" width="600" height="330" > 
+<img src="images/smell and eat.gif" width="640" height="350" > 
 
 
 __Spiral Critter__
@@ -83,7 +83,7 @@ __Spiral Critter__
 Here is an example of a spiral critter program that we wrote to control the critter. A critter with such program would runs in the hexagonal world in a spiral.\
 Our parser parses the program written in the critter language, converts it into an abstract syntax tree, then interprets the instructions based on conditions occurring in the world, as computed by the simulator. 
 
-<img src="images/spiral_critter.png" width="640" height="343" >  
+<img src="images/spiral_critter.png" width="600" height="290" >  
 <img src="images/spiral.gif" width="311" height="320" > 
 
 
