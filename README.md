@@ -10,7 +10,7 @@
 4. [Project Grammar](http://www.cs.cornell.edu/courses/cs2112/2021fa/project/grammar.txt)
 
 **Abstract**  
-This project is a piece of software with Graphical User Interface designed in Model View Controller pattern that simulates evolution. It consists of more than 10,000 lines of Java code.\
+This project is a piece of software with Graphical User Interface designed in Model View Controller pattern that simulates evolution. It consists of more than 15,000 lines of Java code.\
 The animals are called critters and they can move around, eat food, attack one another, reproduce, and evolve.\
 The world is a 2-D hexagonal grid. When critters stay still and absorb sunlight, they gain energy, and when it move or perform actions, they may use energy. When they run out of energy, they die and become food for other critters.\
 The genome, or program, of each critter determines what it does each step under specific conditions. When critters mate or bud, their program are copied over to its offspring, possibly with mutations.\
