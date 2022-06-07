@@ -49,13 +49,13 @@ __Loading a random world (World → Generate Random World)__\
 <img src="images/loaded_world.png" width="600" height="470">  
 
 __Loading a specific world form file (World → Load World From File)__\
-<img src="images/loading_world.png" width="600" height="450">  
+<img src="images/loading_world.png" width="600" height="490">  
 
 __Load a critter at a specific index (Critter → Load Critter At Index)__\
 <img src="images/load_critter.png" width="400" height="360">  
 
 __Sees info of a critter by clicking on the hex__\
-<img src="images/critter_info.png" width="600" height="480">  
+<img src="images/critter_info.png" width="600" height="490">  
 
 __The world simulating by clicking the “Play” button__\
 <img src="images/play_world.png" width="600" height="490">  
