@@ -85,3 +85,5 @@ __Dijkstra's Shortest Path Algorithm__
 To enhance critters with intelligence, we implemented an algorithm that enables a critter to find the closest food tile within a predetermined distance in-game, including the number of turns that would be required to eat food directly in front of it. This algorithm is implemented via Dijkstra's Algorithm and a Priority Queue. This enables critters to be more strategic in looking for food.
 
 <img src="images/smell and eat.gif" width="640" height="343" > 
+
+<img src="images/spiral.gif" width="623" height="640" > 
