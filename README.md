@@ -2,22 +2,25 @@
 ### CS 2112: Honors Object Oriented Design and Data Structures - Cornell University 
 ### [Stephanie Ma](https://github.com/calciiium), [Barry Lyu](https://github.com/fangzhonglyu), [Emerald Liu](https://github.com/emerisly)
 
+### Project Specifications  
 
-**Project Specifications**  
 1. [Critter World Specification](http://www.cs.cornell.edu/courses/cs2112/2021fa/project/project.pdf?1632534588)
 2. [Example Critter File](http://www.cs.cornell.edu/courses/cs2112/2021fa/project/example-critter.txt)
 3. [Example World File](https://github.com/MitchellGray100/Critter-World-README/blob/main/world.txt)
 4. [Project Grammar](http://www.cs.cornell.edu/courses/cs2112/2021fa/project/grammar.txt)
 
-**Abstract**  
+### Abstract 
+
 This project is a piece of software with Graphical User Interface designed in Model View Controller pattern that simulates evolution. It consists of more than 15,000 lines of Java code.\
 The animals are called critters and they can move around, eat food, attack one another, reproduce, and evolve.\
 The world is a 2-D hexagonal grid. When critters stay still and absorb sunlight, they gain energy, and when it move or perform actions, they may use energy. When they run out of energy, they die and become food for other critters.\
 The genome, or program, of each critter determines what it does each step under specific conditions. When critters mate or bud, their program are copied over to its offspring, possibly with mutations.\
 Depending on a adjustable setting, food called Manna can be added at random intervals to random grids in the world for critters to consume and gain energy.  
 
-**Tasks**  
+### Tasks 
+
 We implemented: 
+
 1. A Parser, Interpreter, and Fault Injector for a context-free grammar with 16 productions that represent the critter genomes.
 2. A simulator and Graphical User Interface to view the Critter World.
 3. A method that calculates the closest available food to a critter using Dijkstra’s Algorithm with a Priority Queue implemented using a Binary Heap.
@@ -85,6 +88,6 @@ Our parser parses the program written in the critter language, converts it into 
 
 <img src="images/spiral_critter.png" width="600" height="290" >  
 <img src="images/spiral.gif" width="311" height="320" > 
- 
+
  Program rules below\
  <img src="images/language.png" width="450" height="320" > 
