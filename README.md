@@ -1,6 +1,6 @@
 ## Fall 2021: Critterworld - Simulating Evolving Artificial Life
 ### CS 2112: Honors Object Oriented Design and Data Structures - Cornell University 
-### [Stephanie Ma](https://github.com/calciiium), [Barry Lyu](https://github.com/fangzhonglyu), [Emerald Liu](https://github.com/emerisly)
+### [Emerald Liu](https://github.com/emerisly), [Stephanie Ma](https://github.com/calciiium), [Barry Lyu](https://github.com/fangzhonglyu)
 
 ### Project Specifications  
 
